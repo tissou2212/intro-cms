@@ -1,0 +1,16 @@
+.mpp-pop-up{
+background-color: pink;
+bottom: 25px;
+padding: 25px;
+right: 25px;
+position: fixed;
+opacity: 1;
+transform: translateY(0);
+transition: opacity .3s ease,
+            transform .3s ease;
+}
+.mpp-pop-up--hidden{
+    opacity: 0;
+    transform: translateY(50px);
+
+}
