@@ -1,16 +1,19 @@
-.mpp-pop-up{
-background-color: pink;
-bottom: 25px;
-padding: 25px;
-right: 25px;
-position: fixed;
-opacity: 1;
-transform: translateY(0);
-transition: opacity .3s ease,
-            transform .3s ease;
-}
-.mpp-pop-up--hidden{
-    opacity: 0;
-    transform: translateY(50px);
+/**
+* Component infolettre
+*/
 
+.mpp-infolettre {
+    background-color: white;
+    bottom: 25px;
+    opacity: 1;
+    padding: 15px 30px;
+    position: fixed;
+    right: 25px;
+    transition: opacity .3s ease, bottom .3s ease;
+}
+
+
+.mpp-infolettre.hidden {
+    bottom: 0;
+    opacity: 0;
 }

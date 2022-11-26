@@ -1,7 +1,9 @@
-window.addEventListener('DOMContentLoaded',function(){
+window.addEventListener('DOMContentLoaded', function() {
+/*
+    let elInfo = document.querySelector('[data-js-info]');
 
-    let elPopUp=document.querySelector('[data-js-pop-up]')
-    this.setTimeout(function() {
-        if(elPopUp) elPopUp.classList.remove('mpp-pop-up--hidden')
+    setTimeout(function() {
+        if (elInfo.classList.contains('hidden')) elInfo.classList.remove('hidden');
     }, 1000);
-})
+*/
+});
